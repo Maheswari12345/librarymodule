@@ -1,0 +1,123 @@
+<!doctype.html>
+<html>
+<head>
+       <meta charset="utf-8">
+       <title>Login Form</title>
+       <link rel="stylesheet" href="style.css">
+       <style>
+       body
+    {
+       margin: 0;
+       padding :0;
+       background :url(return.jpg);
+       background-size:cover;
+       font-family:sans-serif;
+   }
+  .title
+{
+  text-align:center;
+  padding:50px 0 20px;
+}
+.title h1
+{
+margin:0;
+padding:0;
+color:#66ff66;
+text-transform:uppercase;
+font-size:36px;
+}
+.container
+{
+width:50%;
+height:470px;
+background-size:#fff;
+margin:0 auto;
+border:2px solid #fff;
+box-shadow:0 15px 40px rgba(0,0,0,.5);
+}
+
+.formBox
+{
+width:100%;
+padding:80px 40px;
+box-sizing:border-box;
+height:470px;
+background:#fff;
+}
+.formBox p
+{
+ margin:0;
+padding:0;
+font-weight:bold;
+color:#ff0066;
+}
+.formBox input
+{
+width:100%;
+margin-bottom:20px;
+}
+.formBox input[type="text"],
+.formBox input[type="password"]
+{
+border:none;
+border-bottom:2px solid #a6af13;
+outline:none;
+height:40px;
+}
+.formBox input[type="text"]:focus,
+.formBox input[type="password"]:focus
+{
+border-bottom:2px solid #262626;
+}
+.formBox input[type:"submit"]
+{
+border:none;
+outline:none;
+height:40px;
+color:#fff;
+background:#262626;
+cursor:pointer;
+}
+.formBox input[type="submit"]:hover
+{
+background:#a6af13;
+}
+.formBox a
+{
+color:#262626;
+font-size:12px;
+font-weight:bold;
+}
+</style>
+</head>
+<body>
+    <div class="title"><h1>RETURN FORM</h1></div>
+        <div class="container">
+              <div class="left"></div>
+              <div class="right">       
+                  <div class="formBox">
+                     <form action="returnaction.jsp">
+                        <p>MEMBER ID NO</p>
+                        <input type="text" name="id">
+                        <p>BOOK CODE</p>
+                        <input type="text" name="code" >
+                        <p>DATE OF ISSUE</p>
+                        <input type="text" name="issue" >
+                        <p>DATE OF EXPIRY</p>
+                          <input type="text" name="return" >
+                       
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <input type="SUBMIT" name=" " value="RETURNING">
+                      
+                     </form>
+                 </div>
+              </div>
+        </div>
+</body>
+</html>
